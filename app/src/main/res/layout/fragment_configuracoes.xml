@@ -3,25 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConversasFragment">
+    tools:context=".ConfiguracoesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/txtConversas"
+        android:id="@+id/txtConfiguracoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Conversas"
+        android:text="Configurações"
         android:textColor="#000"
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imgConversas"
+        android:id="@+id/imgConfiguracoes"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/social_chat" />
+        android:src="@drawable/configuracoes" />
 
 </FrameLayout>

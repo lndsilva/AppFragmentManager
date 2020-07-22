@@ -7,25 +7,33 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-public class ContatosFragment extends Fragment {
 
-    TextView txtContatos;
+public class ConfiguracoesFragment extends Fragment {
 
-    public ContatosFragment() {
+    TextView txtConfiguracoes;
+    ImageView imgConfiguracoes;
+
+
+    public ConfiguracoesFragment() {
         // Required empty public constructor
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_contatos, container, false);
+        View view = inflater.inflate(R.layout.fragment_configuracoes, container, false);
 
-        txtContatos = view.findViewById(R.id.txtContatos);
+        txtConfiguracoes = view.findViewById(R.id.txtConfiguracoes);
 
-        txtContatos.setText("Contato alterado");
+        txtConfiguracoes.setText("Configurações do sistema");
+
+
+
 
         return view;
     }
